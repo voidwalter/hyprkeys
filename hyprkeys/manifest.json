@@ -1,0 +1,28 @@
+{
+  "id": "hyprkeys",
+  "name": "Hyprkeys",
+  "version": "0.1.1",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "voidwalter",
+  "license": "MIT",
+  "repository": "https://github.com/voidwalter/hyprkeys",
+  "description": "Plugin to show hyprland keybinds for lua config",
+  "tags": ["System", "Indicator"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "",
+    "panel": "",
+    "settings": ""
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "cheatsheetData": [],
+      "windowWidth": 1400,
+      "windowHeight": 0,
+      "autoHeight": true,
+    }
+  }
+}
